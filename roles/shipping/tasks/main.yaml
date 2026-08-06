@@ -18,7 +18,6 @@
     name: PyMySQL
     executable: pip3.9
 
-
 - name: import shipping data
   community.mysql.mysql_db:
     state: import
