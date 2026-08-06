@@ -10,5 +10,5 @@
    ansible.builtin.pip:
      requirements: /app/requirements.txt
      executable: pip3.9
-     args:
-       chdir: /app
+    #  args:
+    #    chdir: /app
