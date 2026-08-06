@@ -1,0 +1,3 @@
+dependencies:
+# payment role depends on common role, so we need to add common role as dependency
+  - role: common
